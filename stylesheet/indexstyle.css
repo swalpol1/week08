@@ -1,0 +1,31 @@
+font-family: 'Bebas Neue', cursive;
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+footer{
+    display: block;
+    
+}
+
+.footer{
+    background-color:dimgrey;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+p {
+    padding-left: 15px;
+    color:white;
+}
+
+a{
+    padding-left: 15px;
+    color:white;
+}

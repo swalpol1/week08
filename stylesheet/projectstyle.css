@@ -1,0 +1,100 @@
+.ptagtop{
+    color: black;
+}
+
+.ptag{
+    color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 15px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+footer{
+    display: block;
+    
+}
+
+.footer{
+    background-color:dimgrey;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+
+a{
+    padding-left: 15px;
+    color:white;
+}
